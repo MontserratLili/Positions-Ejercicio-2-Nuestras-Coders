@@ -1,0 +1,52 @@
+body{
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+}
+p{
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 220px;
+    margin-bottom: 0px;
+}
+#rayita{
+    width: 170px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin-left: 220px;
+}
+
+.a{
+    
+    margin-left: 200px;
+    padding: 25px 30px 05px 30px;
+    display: inline-block
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    position: relative;
+    display: inline-block
+    
+}
+
+imagen{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    color: fuchsia;
+    display: inline-block; 
+    
+}
+span{
+    font-size: 20px;
+    position: relative;
+}
+
+.todas{
+    position: relative;
+}
