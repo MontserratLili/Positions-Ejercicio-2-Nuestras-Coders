@@ -1,52 +1,53 @@
-body{
+body {
     font-family: 'Arvo', serif;
     font-size: 40px;
+    background-color: rgba(0, 118, 255, 0.41);
+    
 }
-p{
+
+p {
     display: block;
     position: relative;
     margin-top: 0px;
     margin-left: 220px;
     margin-bottom: 0px;
 }
-#rayita{
+
+#rayita {
     width: 170px;
     height: 10px;
     background-color: black;
-    position: absolute;
+    position: relative;
     margin-left: 220px;
+    margin-top: 0px;
 }
 
-.a{
-    
-    margin-left: 200px;
+.a {
+    margin-left: 300px;
     padding: 25px 30px 05px 30px;
-    display: inline-block
-    
+    display: block;
+    position: relative;
+    float: left;
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
+.primera {
     position: relative;
-    display: inline-block
-    
+    display: inline-block;
+    margin-right: 60px;
 }
 
-imagen{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    color: fuchsia;
-    display: inline-block; 
-    
-}
-span{
+span {
     font-size: 20px;
-    position: relative;
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin-top: 120px;
+    background-color: turquoise;
+    color: white;
+    opacity: 0.5;
 }
-
-.todas{
-    position: relative;
+span:hover{
+    background-color: fuchsia;
+    color: yellow;   
 }
